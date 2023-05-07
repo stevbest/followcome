@@ -1,5 +1,5 @@
 body{
-    //background: rgba(247, 245, 245, 0.5);
+    background: #171D29;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,12 +19,12 @@ body{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #567FD1;
         span{
-            color: black;
+            //color: black;
         }
     }
     
     .container{
-        background: white;
+        background: #1B212D;
         height: 600px;
         width: 400px;
         border-radius: 15px;
@@ -61,6 +61,7 @@ body{
                 color: rgb(190, 190, 190);
                 box-shadow: 1px 1px 10px rgba(131, 129, 129, 0.2);
                 text-align: center;
+                background: #1B212D;
             }
             .btnprocess{
                 margin-top: 15px;
@@ -84,6 +85,7 @@ body{
 
     .containers{
 
+        background: #1B212D;
         box-shadow: 1px 1px 15px rgba(87, 131, 219, .1);
         border:none;// 1px solid #567FD1;
         border-radius: 15px;
@@ -96,25 +98,26 @@ body{
 
         padding: 5px;
         //gap: 5px;
-        .title{
-            margin: 0;
-            padding: 0;
-            position:relative;
-            bottom: 0px;
-            // top: -105px;
-            right: 130px;
-            font-size: 1rem;
-            //background-color: black;
-        }
+        // .title{
+        //     margin: 0;
+        //     padding: 0;
+        //     position:relative;
+        //     bottom: 0px;
+        //     // top: -105px;
+        //     right: 130px;
+        //     font-size: 1rem;
+        //     //background-color: black;
+        // }
 
         .verifylogo{
             width: 40px;
             height: 40px;
-            margin-top: 40px;
+            margin-top: 5px;
             margin-bottom: 10px;
         }
         #coinreceived{
             font-size: 0.8rem;
+            color:#567FD1;
             span{
                 color: #0db69a;
                 font-size: 1.6rem;
@@ -275,8 +278,22 @@ body{
         }
 
         .cust{
-            box-shadow: 0px 7px 15px rgba(165, 182, 179, 0.1);
+            box-shadow: 0px 2px 1px rgba(114, 114, 114, 0.1);
             //border-bottom: 1px solid rgba(165, 182, 179, 0.3);
+            border-radius: 10px;
+            //height: 70px;
+            padding: 13px 10px;
+            background: #171D29;
+
+            #tstatus, #tfee, #tamount, #tslippage, #tusdreceived, #ttransdate{
+                color:#474D5B;
+                font-size: 1.2rem;
+            }
+
+            #fees, #amounts, #slippages, #usdreceiveds, #date{
+                color:#868C98;
+                font-size: 1.2rem;
+            }
         }
 
         .viewby{
@@ -288,11 +305,11 @@ body{
         }
 
         .author{
-            margin-top: 35px;
+            margin-top: 10px;
             font-size: .82rem;
             color: rgb(12, 115, 199);
             span{
-                color: black;
+                color:#929292;
             }
         }
 

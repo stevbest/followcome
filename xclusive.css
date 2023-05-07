@@ -1,4 +1,5 @@
 body {
+  background: #171D29;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,11 +15,8 @@ body .title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #567FD1;
 }
-body .title span {
-  color: black;
-}
 body .container {
-  background: white;
+  background: #1B212D;
   height: 600px;
   width: 400px;
   border-radius: 15px;
@@ -50,6 +48,7 @@ body .container .forms input {
   color: rgb(190, 190, 190);
   box-shadow: 1px 1px 10px rgba(131, 129, 129, 0.2);
   text-align: center;
+  background: #1B212D;
 }
 body .container .forms .btnprocess {
   margin-top: 15px;
@@ -66,6 +65,7 @@ body .container .forms .btnprocess a {
   color: white;
 }
 body .containers {
+  background: #1B212D;
   box-shadow: 1px 1px 15px rgba(87, 131, 219, 0.1);
   border: none;
   border-radius: 15px;
@@ -77,22 +77,15 @@ body .containers {
   align-items: center;
   padding: 5px;
 }
-body .containers .title {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  bottom: 0px;
-  right: 130px;
-  font-size: 1rem;
-}
 body .containers .verifylogo {
   width: 40px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 body .containers #coinreceived {
   font-size: 0.8rem;
+  color: #567FD1;
 }
 body .containers #coinreceived span {
   color: #0db69a;
@@ -211,7 +204,18 @@ body .containers .transdatediv #dates {
   font-size: 1rem;
 }
 body .containers .cust {
-  box-shadow: 0px 7px 15px rgba(165, 182, 179, 0.1);
+  box-shadow: 0px 2px 1px rgba(114, 114, 114, 0.1);
+  border-radius: 10px;
+  padding: 13px 10px;
+  background: #171D29;
+}
+body .containers .cust #tstatus, body .containers .cust #tfee, body .containers .cust #tamount, body .containers .cust #tslippage, body .containers .cust #tusdreceived, body .containers .cust #ttransdate {
+  color: #474D5B;
+  font-size: 1.2rem;
+}
+body .containers .cust #fees, body .containers .cust #amounts, body .containers .cust #slippages, body .containers .cust #usdreceiveds, body .containers .cust #date {
+  color: #868C98;
+  font-size: 1.2rem;
 }
 body .containers .viewby {
   color: rgb(12, 115, 199);
@@ -221,10 +225,10 @@ body .containers .viewby {
   margin-top: 40px;
 }
 body .containers .author {
-  margin-top: 35px;
+  margin-top: 10px;
   font-size: 0.82rem;
   color: rgb(12, 115, 199);
 }
 body .containers .author span {
-  color: black;
+  color: #929292;
 }/*# sourceMappingURL=xclusive.css.map */
