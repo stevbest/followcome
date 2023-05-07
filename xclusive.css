@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .title {
+  font-size: 1.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #567FD1;
+}
+body .title span {
+  color: black;
+}
+body .container {
+  background: white;
+  height: 600px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(131, 129, 129, 0.2);
+}
+body .container h2 {
+  color: #567FD1;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 35px;
+  margin-bottom: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body .container .forms {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+body .container .forms input {
+  width: 80%;
+  height: 45px;
+  border-radius: 15px;
+  border: none;
+  padding-left: 15px;
+  font-size: 1.2rem;
+  color: rgb(190, 190, 190);
+  box-shadow: 1px 1px 10px rgba(131, 129, 129, 0.2);
+  text-align: center;
+}
+body .container .forms .btnprocess {
+  margin-top: 15px;
+  border: none;
+  padding: 12px 50px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #0db69a;
+  color: white;
+}
+body .container .forms .btnprocess a {
+  text-decoration: none;
+  color: white;
+}
+body .containers {
+  box-shadow: 1px 1px 15px rgba(87, 131, 219, 0.1);
+  border: none;
+  border-radius: 15px;
+  height: 650px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 5px;
+}
+body .containers .title {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 0px;
+  right: 130px;
+  font-size: 1rem;
+}
+body .containers .verifylogo {
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+body .containers #coinreceived {
+  font-size: 1rem;
+}
+body .containers #coinreceived span {
+  color: #0db69a;
+}
+body .containers .statusdiv {
+  font-size: 1.1rem;
+  width: 95%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+  margin-bottom: 35px;
+}
+body .containers .statusdiv #tstatus {
+  float: left;
+}
+body .containers .statusdiv #status {
+  float: right;
+  color: #0db69a;
+}
+body .containers .feediv {
+  font-size: 1.1rem;
+  width: 95%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}
+body .containers .feediv #tfee {
+  float: left;
+}
+body .containers .feediv #fees {
+  float: right;
+}
+body .containers .amountdiv {
+  font-size: 1.1rem;
+  width: 95%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+  margin-bottom: 35px;
+}
+body .containers .amountdiv #tamount {
+  float: left;
+}
+body .containers .amountdiv #amounts {
+  float: right;
+}
+body .containers .slippagefeediv {
+  font-size: 1.1rem;
+  width: 95%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+  margin-bottom: 35px;
+}
+body .containers .slippagefeediv #tslippage {
+  float: left;
+}
+body .containers .slippagefeediv #slippages {
+  float: right;
+}
+body .containers .usdreceiveddiv {
+  font-size: 1.1rem;
+  width: 95%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+  margin-bottom: 35px;
+}
+body .containers .usdreceiveddiv #tusdreceived {
+  float: left;
+}
+body .containers .usdreceiveddiv #usdreceiveds {
+  float: right;
+}
+body .containers .transdatediv {
+  font-size: 1.1rem;
+  width: 95%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+}
+body .containers .transdatediv #ttransdate {
+  float: left;
+}
+body .containers .transdatediv #dates {
+  float: right;
+}
+body .containers .cust {
+  box-shadow: 0px 7px 15px rgba(165, 182, 179, 0.1);
+}
+body .containers .author {
+  margin-top: 35px;
+  font-size: 0.8rem;
+  color: #567FD1;
+}
+body .containers .author span {
+  color: black;
+}/*# sourceMappingURL=xclusive.css.map */
