@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,8 +69,8 @@ body .containers {
   box-shadow: 1px 1px 15px rgba(87, 131, 219, 0.1);
   border: none;
   border-radius: 15px;
-  height: 650px;
-  width: 400px;
+  height: 700px;
+  width: 388px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -92,10 +92,11 @@ body .containers .verifylogo {
   margin-bottom: 10px;
 }
 body .containers #coinreceived {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 body .containers #coinreceived span {
   color: #0db69a;
+  font-size: 1.6rem;
 }
 body .containers .statusdiv {
   font-size: 1.1rem;
@@ -107,10 +108,13 @@ body .containers .statusdiv {
 }
 body .containers .statusdiv #tstatus {
   float: left;
+  font-weight: 500;
+  font-size: 1.05rem;
 }
 body .containers .statusdiv #status {
   float: right;
   color: #0db69a;
+  font-weight: 500;
 }
 body .containers .feediv {
   font-size: 1.1rem;
@@ -122,9 +126,14 @@ body .containers .feediv {
 }
 body .containers .feediv #tfee {
   float: left;
+  font-weight: 500;
+  font-size: 1.05rem;
 }
 body .containers .feediv #fees {
   float: right;
+  color: #929292;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 body .containers .amountdiv {
   font-size: 1.1rem;
@@ -136,9 +145,14 @@ body .containers .amountdiv {
 }
 body .containers .amountdiv #tamount {
   float: left;
+  font-weight: 500;
+  font-size: 1.05rem;
 }
 body .containers .amountdiv #amounts {
   float: right;
+  color: #929292;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 body .containers .slippagefeediv {
   font-size: 1.1rem;
@@ -150,9 +164,14 @@ body .containers .slippagefeediv {
 }
 body .containers .slippagefeediv #tslippage {
   float: left;
+  font-weight: 500;
+  font-size: 1.05rem;
 }
 body .containers .slippagefeediv #slippages {
   float: right;
+  color: #929292;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 body .containers .usdreceiveddiv {
   font-size: 1.1rem;
@@ -164,9 +183,14 @@ body .containers .usdreceiveddiv {
 }
 body .containers .usdreceiveddiv #tusdreceived {
   float: left;
+  font-weight: 500;
+  font-size: 1.05rem;
 }
 body .containers .usdreceiveddiv #usdreceiveds {
   float: right;
+  color: #929292;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 body .containers .transdatediv {
   font-size: 1.1rem;
@@ -177,17 +201,29 @@ body .containers .transdatediv {
 }
 body .containers .transdatediv #ttransdate {
   float: left;
+  font-weight: 500;
+  font-size: 1.05rem;
 }
 body .containers .transdatediv #dates {
   float: right;
+  color: #929292;
+  font-weight: 500;
+  font-size: 1rem;
 }
 body .containers .cust {
   box-shadow: 0px 7px 15px rgba(165, 182, 179, 0.1);
 }
+body .containers .viewby {
+  color: rgb(12, 115, 199);
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  margin-top: 40px;
+}
 body .containers .author {
   margin-top: 35px;
-  font-size: 0.8rem;
-  color: #567FD1;
+  font-size: 0.82rem;
+  color: rgb(12, 115, 199);
 }
 body .containers .author span {
   color: black;

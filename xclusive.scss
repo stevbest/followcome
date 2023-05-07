@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,8 +87,8 @@ body{
         box-shadow: 1px 1px 15px rgba(87, 131, 219, .1);
         border:none;// 1px solid #567FD1;
         border-radius: 15px;
-        height: 650px;
-        width: 400px;
+        height: 700px;
+        width: 388px;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -114,9 +114,10 @@ body{
             margin-bottom: 10px;
         }
         #coinreceived{
-            font-size: 1rem;
+            font-size: 0.8rem;
             span{
                 color: #0db69a;
+                font-size: 1.6rem;
             }
         }
 
@@ -132,11 +133,16 @@ body{
 
             #tstatus{
                 float: left;
+                font-weight: 500;
+                font-size: 1.05rem;
             }
 
             #status{
                 float: right;
+
                 color: #0db69a;
+                font-weight: 500;
+                //font-size: 1.0rem;
             }
 
             margin-bottom: 35px;
@@ -153,11 +159,15 @@ body{
 
             #tfee{
                 float: left;
+                font-weight: 500;
+                font-size: 1.05rem;
             }
 
             #fees{
                 float: right;
-                //color: #0db69a;
+                color: #929292;
+                font-weight: 500;
+                font-size: 1.1rem;
             }
 
             margin-bottom: 30px;
@@ -174,11 +184,15 @@ body{
 
             #tamount{
                 float: left;
+                font-weight: 500;
+                font-size: 1.05rem;
             }
 
             #amounts{
                 float: right;
-                //color: #0db69a;
+                color: #929292;
+                font-weight: 500;
+                font-size: 1.1rem;
             }
 
             margin-bottom: 35px;
@@ -195,11 +209,15 @@ body{
 
             #tslippage{
                 float: left;
+                font-weight: 500;
+                font-size: 1.05rem;
             }
 
             #slippages{
                 float: right;
-                //color: #0db69a;
+                color: #929292;
+                font-weight: 500;
+                font-size: 1.1rem;
             }
 
             margin-bottom: 35px;
@@ -216,11 +234,15 @@ body{
 
             #tusdreceived{
                 float: left;
+                font-weight: 500;
+                font-size: 1.05rem;
             }
 
             #usdreceiveds{
                 float: right;
-                //color: #0db69a;
+                color: #929292;
+                font-weight: 500;
+                font-size: 1.1rem;
             }
 
             margin-bottom: 35px;
@@ -237,11 +259,16 @@ body{
 
             #ttransdate{
                 float: left;
+                font-weight: 500;
+                font-size: 1.05rem;
             }
 
             #dates{
                 float: right;
                 //color: #0db69a;
+                color: #929292;
+                font-weight: 500;
+                font-size: 1rem;
             }
 
             //margin-bottom: 30px;
@@ -252,10 +279,18 @@ body{
             //border-bottom: 1px solid rgba(165, 182, 179, 0.3);
         }
 
+        .viewby{
+            color: rgb(12, 115, 199);
+            font-weight: 550;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.95rem;
+            margin-top: 40px;
+        }
+
         .author{
             margin-top: 35px;
-            font-size: .8rem;
-            color: #567FD1;
+            font-size: .82rem;
+            color: rgb(12, 115, 199);
             span{
                 color: black;
             }
