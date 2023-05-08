@@ -78,21 +78,22 @@ body .containers .verifylogo {
   width: 40px;
   height: 40px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 body .containers #coinreceived {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #567FD1;
+  margin-bottom: 30px;
 }
 body .containers #coinreceived span {
   color: #0db69a;
-  font-size: 1.85rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 body .containers .setone {
   font-weight: 450;
   font-size: 1.05rem;
-  width: 93%;
+  width: 98%;
   height: 130px;
   background: #232F3D;
   border-radius: 15px;
@@ -140,7 +141,7 @@ body .containers .settwo {
   margin-top: 40px;
   font-weight: 450;
   font-size: 1.05rem;
-  width: 93%;
+  width: 98%;
   background: #232F3D;
   border-radius: 15px;
   display: flex;
@@ -229,15 +230,15 @@ body .containers .author span {
   color: #929292;
 }
 body .containers .info {
-  width: 3%;
+  width: 4%;
 }
 body .containers .infostatus {
-  position: absolute;
-  top: 312px;
-  left: 160px;
+  position: relative;
+  bottom: 105px;
+  left: -115px;
 }
 body .containers .infofee {
-  position: absolute;
-  top: 418px;
-  left: 135px;
+  position: relative;
+  bottom: 240px;
+  left: -125px;
 }/*# sourceMappingURL=xclusive.css.map */
