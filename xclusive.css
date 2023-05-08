@@ -1,5 +1,5 @@
 body {
-  background: #171D29;
+  background: #1B212D;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -65,8 +65,6 @@ body .container .forms .btnprocess a {
   color: white;
 }
 body .containers {
-  background: #1B212D;
-  box-shadow: 1px 1px 15px rgba(87, 131, 219, 0.1);
   border: none;
   border-radius: 15px;
   height: 700px;
@@ -75,160 +73,171 @@ body .containers {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 5px;
 }
 body .containers .verifylogo {
   width: 40px;
   height: 40px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 body .containers #coinreceived {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #567FD1;
 }
 body .containers #coinreceived span {
   color: #0db69a;
-  font-size: 1.6rem;
+  font-size: 1.85rem;
+  font-weight: 500;
 }
-body .containers .statusdiv {
+body .containers .setone {
+  font-weight: 450;
+  font-size: 1.05rem;
+  width: 93%;
+  height: 130px;
+  background: #232F3D;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+body .containers .setone .statusdiv {
   font-size: 1.1rem;
-  width: 95%;
+  width: 90%;
   display: block;
   clear: both;
   padding: 10px 10px;
-  margin-bottom: 35px;
 }
-body .containers .statusdiv #tstatus {
+body .containers .setone .statusdiv #tstatus {
   float: left;
-  font-weight: 500;
-  font-size: 1.05rem;
 }
-body .containers .statusdiv #status {
+body .containers .setone .statusdiv #status {
   float: right;
   color: #0db69a;
-  font-weight: 500;
 }
-body .containers .feediv {
+body .containers .setone .transdatediv {
   font-size: 1.1rem;
-  width: 95%;
+  width: 90%;
   display: block;
-  clear: both;
+  align-items: center;
+  justify-content: center;
   padding: 10px 10px;
-  margin-bottom: 30px;
 }
-body .containers .feediv #tfee {
+body .containers .setone .transdatediv #ttransdate {
   float: left;
-  font-weight: 500;
-  font-size: 1.05rem;
 }
-body .containers .feediv #fees {
+body .containers .setone .transdatediv #dates {
   float: right;
-  color: #929292;
-  font-weight: 500;
-  font-size: 1.1rem;
 }
-body .containers .amountdiv {
-  font-size: 1.1rem;
-  width: 95%;
-  display: block;
-  clear: both;
-  padding: 10px 10px;
-  margin-bottom: 35px;
+body .containers .hr {
+  width: 90%;
+  margin: 10px 0;
+  border-bottom: 2px solid #0d0e0d;
 }
-body .containers .amountdiv #tamount {
-  float: left;
-  font-weight: 500;
+body .containers .settwo {
+  padding: 10px 0;
+  margin-top: 40px;
+  font-weight: 450;
   font-size: 1.05rem;
+  width: 93%;
+  background: #232F3D;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-body .containers .amountdiv #amounts {
-  float: right;
-  color: #929292;
-  font-weight: 500;
+body .containers .settwo .feediv {
   font-size: 1.1rem;
-}
-body .containers .slippagefeediv {
-  font-size: 1.1rem;
-  width: 95%;
-  display: block;
-  clear: both;
-  padding: 10px 10px;
-  margin-bottom: 35px;
-}
-body .containers .slippagefeediv #tslippage {
-  float: left;
-  font-weight: 500;
-  font-size: 1.05rem;
-}
-body .containers .slippagefeediv #slippages {
-  float: right;
-  color: #929292;
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-body .containers .usdreceiveddiv {
-  font-size: 1.1rem;
-  width: 95%;
-  display: block;
-  clear: both;
-  padding: 10px 10px;
-  margin-bottom: 35px;
-}
-body .containers .usdreceiveddiv #tusdreceived {
-  float: left;
-  font-weight: 500;
-  font-size: 1.05rem;
-}
-body .containers .usdreceiveddiv #usdreceiveds {
-  float: right;
-  color: #929292;
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-body .containers .transdatediv {
-  font-size: 1.1rem;
-  width: 95%;
+  width: 90%;
   display: block;
   clear: both;
   padding: 10px 10px;
 }
-body .containers .transdatediv #ttransdate {
+body .containers .settwo .feediv #tfee {
   float: left;
-  font-weight: 500;
-  font-size: 1.05rem;
 }
-body .containers .transdatediv #dates {
+body .containers .settwo .feediv #fees {
   float: right;
-  color: #929292;
-  font-weight: 500;
-  font-size: 1rem;
 }
-body .containers .cust {
-  box-shadow: 0px 2px 1px rgba(114, 114, 114, 0.1);
-  border-radius: 10px;
-  padding: 13px 10px;
-  background: #171D29;
+body .containers .settwo .amountdiv {
+  font-size: 1.1rem;
+  width: 90%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
 }
-body .containers .cust #tstatus, body .containers .cust #tfee, body .containers .cust #tamount, body .containers .cust #tslippage, body .containers .cust #tusdreceived, body .containers .cust #ttransdate {
-  color: #474D5B;
+body .containers .settwo .amountdiv #tamount {
+  float: left;
+}
+body .containers .settwo .amountdiv #amounts {
+  float: right;
+}
+body .containers .settwo .slippagefeediv {
+  font-size: 1.1rem;
+  width: 90%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+}
+body .containers .settwo .slippagefeediv #tslippage {
+  float: left;
+}
+body .containers .settwo .slippagefeediv #slippages {
+  float: right;
+}
+body .containers .settwo .usdreceiveddiv {
+  font-size: 1.1rem;
+  width: 90%;
+  display: block;
+  clear: both;
+  padding: 10px 10px;
+}
+body .containers .settwo .usdreceiveddiv #tusdreceived {
+  float: left;
+}
+body .containers .settwo .usdreceiveddiv #usdreceiveds {
+  float: right;
+}
+body .containers .titl {
+  color: #b9c8cc;
   font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
 }
-body .containers .cust #fees, body .containers .cust #amounts, body .containers .cust #slippages, body .containers .cust #usdreceiveds, body .containers .cust #date {
-  color: #868C98;
-  font-size: 1.2rem;
+body .containers .tval {
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #929ba5;
+}
+body .containers #status {
+  color: #0db69a;
 }
 body .containers .viewby {
   color: rgb(12, 115, 199);
-  font-weight: 550;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.95rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
   margin-top: 40px;
 }
 body .containers .author {
   margin-top: 10px;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: rgb(12, 115, 199);
 }
 body .containers .author span {
   color: #929292;
+}
+body .containers .info {
+  width: 3%;
+}
+body .containers .infostatus {
+  position: absolute;
+  top: 312px;
+  left: 160px;
+}
+body .containers .infofee {
+  position: absolute;
+  top: 418px;
+  left: 135px;
 }/*# sourceMappingURL=xclusive.css.map */

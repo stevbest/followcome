@@ -1,5 +1,5 @@
 body{
-    background: #171D29;
+    background: #1B212D;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,8 +85,8 @@ body{
 
     .containers{
 
-        background: #1B212D;
-        box-shadow: 1px 1px 15px rgba(87, 131, 219, .1);
+        //background: #1B152D;
+        //box-shadow: 1px 1px 15px rgba(87, 131, 219, .1);
         border:none;// 1px solid #567FD1;
         border-radius: 15px;
         height: 700px;
@@ -96,222 +96,227 @@ body{
         justify-content: start;
         align-items: center;
 
-        padding: 5px;
-        //gap: 5px;
-        // .title{
-        //     margin: 0;
-        //     padding: 0;
-        //     position:relative;
-        //     bottom: 0px;
-        //     // top: -105px;
-        //     right: 130px;
-        //     font-size: 1rem;
-        //     //background-color: black;
-        // }
-
         .verifylogo{
             width: 40px;
             height: 40px;
-            margin-top: 5px;
+            margin-top: 15px;
             margin-bottom: 10px;
         }
         #coinreceived{
-            font-size: 0.8rem;
+            font-size: 1rem;
             color:#567FD1;
             span{
                 color: #0db69a;
-                font-size: 1.6rem;
+                font-size: 1.85rem;
+                font-weight: 500;
             }
         }
 
-        
-        .statusdiv{
-            font-size: 1.1rem;
-            // background-color: #0db69a;
-            width: 95%;
-            display: block;
-            clear: both;
-            padding: 10px 10px;
-            //box-shadow: 0px 7px 15px rgba(108, 206, 190, 0.1);
-
-            #tstatus{
-                float: left;
-                font-weight: 500;
-                font-size: 1.05rem;
-            }
-
-            #status{
-                float: right;
-
-                color: #0db69a;
-                font-weight: 500;
-                //font-size: 1.0rem;
-            }
-
-            margin-bottom: 35px;
-        }
-
-        .feediv{
-            font-size: 1.1rem;
-            // background-color: #0db69a;
-            width: 95%;
-            display: block;
-            clear: both;
-            padding: 10px 10px;
-            //box-shadow: 0px 7px 15px rgba(108, 206, 190, 0.1);
-
-            #tfee{
-                float: left;
-                font-weight: 500;
-                font-size: 1.05rem;
-            }
-
-            #fees{
-                float: right;
-                color: #929292;
-                font-weight: 500;
-                font-size: 1.1rem;
-            }
-
-            margin-bottom: 30px;
-        }
-
-        .amountdiv{
-            font-size: 1.1rem;
-            // background-color: #0db69a;
-            width: 95%;
-            display: block;
-            clear: both;
-            padding: 10px 10px;
-            //box-shadow: 0px 7px 15px rgba(108, 206, 190, 0.1);
-
-            #tamount{
-                float: left;
-                font-weight: 500;
-                font-size: 1.05rem;
-            }
-
-            #amounts{
-                float: right;
-                color: #929292;
-                font-weight: 500;
-                font-size: 1.1rem;
-            }
-
-            margin-bottom: 35px;
-        }
-
-        .slippagefeediv{
-            font-size: 1.1rem;
-            // background-color: #0db69a;
-            width: 95%;
-            display: block;
-            clear: both;
-            padding: 10px 10px;
-            //box-shadow: 0px 7px 15px rgba(50, 190, 166, 0.1);
-
-            #tslippage{
-                float: left;
-                font-weight: 500;
-                font-size: 1.05rem;
-            }
-
-            #slippages{
-                float: right;
-                color: #929292;
-                font-weight: 500;
-                font-size: 1.1rem;
-            }
-
-            margin-bottom: 35px;
-        }
-
-        .usdreceiveddiv{
-            font-size: 1.1rem;
-            // background-color: #0db69a;
-            width: 95%;
-            display: block;
-            clear: both;
-            padding: 10px 10px;
-            //box-shadow: 0px 7px 15px rgba(50, 190, 166, 0.1);
-
-            #tusdreceived{
-                float: left;
-                font-weight: 500;
-                font-size: 1.05rem;
-            }
-
-            #usdreceiveds{
-                float: right;
-                color: #929292;
-                font-weight: 500;
-                font-size: 1.1rem;
-            }
-
-            margin-bottom: 35px;
-        }
-
-        .transdatediv{
-            font-size: 1.1rem;
-            // background-color: #0db69a;
-            width: 95%;
-            display: block;
-            clear: both;
-            padding: 10px 10px;
-            //box-shadow: 0px 7px 15px rgba(50, 190, 166, 0.1);
-
-            #ttransdate{
-                float: left;
-                font-weight: 500;
-                font-size: 1.05rem;
-            }
-
-            #dates{
-                float: right;
-                //color: #0db69a;
-                color: #929292;
-                font-weight: 500;
-                font-size: 1rem;
-            }
-
+        //gap: 30px;
+        .setone{
+            font-weight: 450;
+            font-size: 1.05rem;
+            width: 93%;
+            height: 130px;
+            background: #232F3D;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            //gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
             //margin-bottom: 30px;
+            .statusdiv{
+                font-size: 1.1rem;
+                //background-color: #03241e;
+                width: 90%;
+                display: block;
+                //height: 100%;
+                clear: both;
+                padding: 10px 10px;
+                //box-shadow: 0px 7px 15px rgba(108, 206, 190, 0.1);
+                //margin-bottom: 0px;
+                #tstatus{
+                    float: left;
+                    // font-weight: 400;
+                    // font-size: 1.25rem;
+                }
+    
+                #status{
+                    float: right;
+    
+                    color: #0db69a;
+                    // /font-weight: 500;
+                }
+            }
+
+            
+            
+            .transdatediv{
+                font-size: 1.1rem;
+                width: 90%;
+                display: block;
+                align-items: center;
+                justify-content: center;
+                //clear: both;
+                padding: 10px 10px;
+                #ttransdate{
+                    float: left;
+                    
+                }
+
+                #dates{
+                    float: right;
+                    //color: #0db69a;
+                    //color: #929292;
+                }
+
+                //margin-bottom: 30px;
+            }
+
+        }
+        
+        .hr{
+            width: 90%;
+            margin: 10px 0;
+            border-bottom: 2px solid #0d0e0d;
+            //background-color: #464444;
         }
 
-        .cust{
-            box-shadow: 0px 2px 1px rgba(114, 114, 114, 0.1);
-            //border-bottom: 1px solid rgba(165, 182, 179, 0.3);
-            border-radius: 10px;
-            //height: 70px;
-            padding: 13px 10px;
-            background: #171D29;
 
-            #tstatus, #tfee, #tamount, #tslippage, #tusdreceived, #ttransdate{
-                color:#474D5B;
-                font-size: 1.2rem;
+        .settwo{
+            padding: 10px 0;
+            margin-top: 40px;
+            font-weight: 450;
+            font-size: 1.05rem;
+            width: 93%;
+            //gap: 30px;
+            //height: 330px;
+            background: #232F3D;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            //gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+
+            .feediv{
+                font-size: 1.1rem;
+                width: 90%;
+                display: block;
+                clear: both;
+                padding: 10px 10px;
+                #tfee{
+                    float: left;
+                }
+    
+                #fees{
+                    float: right;
+                    //color: #0db69a;
+                }
             }
 
-            #fees, #amounts, #slippages, #usdreceiveds, #date{
-                color:#868C98;
-                font-size: 1.2rem;
+            .amountdiv{
+                font-size: 1.1rem;
+                width: 90%;
+                display: block;
+                clear: both;
+                padding: 10px 10px;
+                #tamount{
+                    float: left;
+                }
+    
+                #amounts{
+                    float: right;
+                    //color: #0db69a;
+                }
             }
+
+            .slippagefeediv{
+                font-size: 1.1rem;
+                width: 90%;
+                display: block;
+                clear: both;
+                padding: 10px 10px;
+                #tslippage{
+                    float: left;
+                }
+    
+                #slippages{
+                    float: right;
+                    //color: #0db69a;
+                }
+            }
+
+            .usdreceiveddiv{
+                font-size: 1.1rem;
+                width: 90%;
+                display: block;
+                clear: both;
+                padding: 10px 10px;
+                #tusdreceived{
+                    float: left;
+                }
+    
+                #usdreceiveds{
+                    float: right;
+                    //color: #0db69a;
+                }
+            }
+
+        }
+        
+        .titl{
+            color: #b9c8cc;
+            font-size: 1.2rem;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+        .tval{
+            font-size: 1.3rem;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #929ba5;
+        }
+        
+        #status{
+            color: #0db69a;
+            // /font-weight: 500;
         }
 
         .viewby{
             color: rgb(12, 115, 199);
-            font-weight: 550;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.95rem;
+            //font-weight: 550;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.2rem;
             margin-top: 40px;
         }
 
         .author{
             margin-top: 10px;
-            font-size: .82rem;
+            font-size: .90rem;
             color: rgb(12, 115, 199);
             span{
                 color:#929292;
             }
         }
 
+
+
+        .info{
+            width: 3%;
+        }
+
+        .infostatus{
+            position: absolute;
+            top: 312px;
+            left: 160px;
+        }
+        .infofee{
+            position: absolute;
+            top: 418px;
+            left: 135px;
+        }
     }
 }

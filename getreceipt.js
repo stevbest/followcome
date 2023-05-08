@@ -6,10 +6,10 @@ function getdata(){
     document.getElementById('coinamount').innerText = coins.amount;
     document.getElementById('amounts').innerText = coins.amount + ' BTC';
     document.getElementById('slippages').innerText = coins.slippage + '%';
-    document.getElementById('usdreceiveds').innerText = coins.usd + '$';
+    document.getElementById('usdreceiveds').innerText = '$'+coins.usd;
 
     var datenow = new Date();
-    document.getElementById('dates').innerText = datenow.toUTCString();
+    document.getElementById('dates').innerText = 'Today, ' +datenow.toLocaleTimeString();
     //console.log(JSON.parse(coins));
 }
 setTimeout(getdata, 1000);
