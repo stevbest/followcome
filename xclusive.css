@@ -214,10 +214,8 @@ body .containers .author {
   margin-top: 0;
   padding: 0;
   font-size: 1rem;
+  font-weight: 500;
   color: #0db69a;
-}
-body .containers .author span {
-  color: #929292;
 }
 body .containers .info {
   width: 4%;

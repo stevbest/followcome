@@ -306,9 +306,12 @@ body{
             padding: 0;
             
             font-size: 1rem;
+            font-weight:500;
+            //font-style: italic;
             color: #0db69a;
             span{
-                color:#929292;
+                //font-style: normal;
+                //color:#929292;
             }
         }
 
