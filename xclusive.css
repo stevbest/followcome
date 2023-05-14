@@ -64,7 +64,6 @@ body .container .forms .btnprocess a {
   color: white;
 }
 body .containers {
-  background: #1B152D;
   border: none;
   border-radius: 15px;
   height: 700px;
@@ -88,7 +87,7 @@ body .containers #coinreceived span {
 }
 body .containers .setone {
   font-size: 0.1rem;
-  width: 90%;
+  width: 94%;
   height: 120px;
   background: #232F3D;
   border-radius: 15px;
@@ -129,11 +128,11 @@ body .containers .hr {
   border-bottom: 2px solid #0d0e0d;
 }
 body .containers .settwo {
-  padding: 0;
+  padding-top: 10px;
   margin-top: 30px;
   margin-bottom: 0;
   font-weight: 450;
-  width: 90%;
+  width: 94%;
   background: #232F3D;
   border-radius: 15px;
   display: flex;
@@ -209,7 +208,7 @@ body .containers .viewby {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.1rem;
   margin-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
 }
 body .containers .author {
   margin-top: 0;
