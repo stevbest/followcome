@@ -12,8 +12,9 @@ html{
 
 body{
     
-    height: 100vh;
+    height: 80vh;
     background: #1B212D;
+    // background: #567FD1;
     display: flex;
     align-items: center;
 
@@ -24,7 +25,7 @@ body{
         border-radius: 15px;
         border: .132rem solid rgba(131, 129, 129, 0.2);
         //box-shadow: 1px 1px 10px rgba(131, 129, 129, 0.2);
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -45,7 +46,7 @@ body{
 
         .entry{
             // width: 0%;
-            width: 80%;
+            width: 85%;
             // background-color: red;
             display: flex;
             flex-direction: column;
@@ -92,7 +93,7 @@ body{
 @media (min-width:700px){
     body .container{
         //background-color: #567FD1;
-        width: 25rem;
+        width: 28rem;
         transition: all 0.5s ease;
     }
 }
