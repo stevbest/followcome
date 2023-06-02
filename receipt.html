@@ -4,76 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Followcome.com</title>
-
-    <link rel="stylesheet" href="xclusive.css">
+    <title>followcome.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="containers">
-        <!-- <h2 class="title">Followcome<span>.com</span></h2> -->
+    <section class="container">
+        
+        <div class="header contain">
+            <img class="verifylogo" src="ok.svg" alt="">
+            <h2 id="coinreceived"><span id="coinamount"></span></h2>    
+        </div>
 
-        <img class="verifylogo" src="ok.svg" alt="">
-        <h2 id="coinreceived"><span id="coinamount"></span></h2>
-        
-        
-        <!-- <div class="coininfo">
+
+        <div class="setone contain">
             
-        </div> -->
-        <div class="setone">
+            <div class="statusdiv cust">
+                <span class="titl" id="tstatus">Status</span>
+                <span class="tval" id="status">Completed</span>
+                <img class="info infostatus" src="info.svg" alt="">
+            </div>
+            <hr>
             <div class="transdatediv cust">
                 <span class="titl" id="ttransdate">Date</span>
                 <span class="tval" id="dates"></span>
             </div>
-            <div class="hr"></div>
-            <div class="statusdiv cust">
-                <span class="titl" id="tstatus">Status</span>
-                <span class="tval" id="status">Completed</span>
+            
+            
+        
+            
+        </div>
+
+
+        <div class="settwo contain">
+            
+            <div class="feediv cust">
+                <span class="titl" id="tfee">Fee</span>
+                <span class="tval" id="fees"></span>
+                <img class="info infofee" src="info.svg" alt="">
             </div>
-            <img class="info infostatus" src="info.svg" alt="">
-        
+
+            <hr>
+
+            <div class="amountdiv cust">
+                <span class="titl" id="tamount">Amount</span>
+                <span class="tval" id="amounts"></span>
+            </div>
+
+            <hr>
+
+            <div class="slippagefeediv cust">
+                <span class="titl" id="tslippage">Slippage Fee</span>
+                <span class="tval" id="slippages"></span>
+            </div>
+
+            <hr>
+
+            <div class="usdreceiveddiv cust">
+                <span class="titl" id="tusdreceived">Received</span>
+                <span class="tval" id="usdreceiveds"></span>
+            </div>
+
             
         </div>
+
+       <div class="contain footer">
+        <p class="viewby">View on block explorer</p>
+        <p class="author">powered by <br><span>followcome.com</span></p>
+       </div>
         
-        <div class="settwo">
-            
-        <div class="feediv cust">
-            <span class="titl" id="tfee">Fee</span>
-            <span class="tval" id="fees"></span>
-        </div>
+    </section>
 
-        <div class="hr"></div>
-
-        <div class="amountdiv cust">
-            <span class="titl" id="tamount">Amount</span>
-            <span class="tval" id="amounts"></span>
-        </div>
-
-        <div class="hr"></div>
-
-        <div class="slippagefeediv cust">
-            <span class="titl" id="tslippage">Slippage Fee</span>
-            <span class="tval" id="slippages"></span>
-        </div>
-
-        <div class="hr"></div>
-
-        <div class="usdreceiveddiv cust">
-            <span class="titl" id="tusdreceived">Received</span>
-            <span class="tval" id="usdreceiveds"></span>
-        </div>
-
-        <img class="info infofee" src="info.svg" alt="">
-        </div>
-
-        
-
-        <p class="viewby">View Blockchain Explorer</p>
-        <p class="author">Powered-by<br><span>followcome.com</span></p>
-        
-        
-    </div>
-    
     <script src="getreceipt.js"></script>
 </body>
 </html>

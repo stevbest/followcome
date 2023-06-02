@@ -12,7 +12,7 @@ function getdata(){
     document.getElementById('dates').innerText = 'Today, ' +datenow.toLocaleTimeString();
     //console.log(JSON.parse(coins));
 }
-setTimeout(getdata, 1000);
+setTimeout(getdata, 500);
 // localStorage.clear('coin');
 // localStorage.removeItem('coin ');
 
