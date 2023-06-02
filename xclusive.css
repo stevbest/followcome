@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  height: 80vh;
+  height: 100vh;
   background: #1B212D;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ body .container {
 }
 body .container .title {
   margin-top: 1.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #567FD1;
   font-size: 1.2rem;
 }
