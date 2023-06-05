@@ -6,13 +6,25 @@ function getdata(){
     document.getElementById('coinamount').innerText = coins.amount;
     document.getElementById('amounts').innerText = coins.amount + ' BTC';
     document.getElementById('slippages').innerText = coins.slippage + '%';
-    document.getElementById('usdreceiveds').innerText = '$'+coins.usd;
+    document.getElementById('usdreceiveds').innerHTML = '$'+coins.usd;
+    var sts = coins.stat;
+    var statuss = document.getElementById('status');//.innerText = '$'+coins.stat;
+
+    if(sts == 'completed'){
+        statuss.style.color = '#0db69a';
+    }
+    else if(sts == 'pending'){
+        statuss.style.color = '#ffa600';
+    }
+    else if(sts == 'failed'){
+        statuss.style.color = '#f52525';
+    }
+
+    statuss.innerHTML = sts;
+    statuss.style.textTransform = 'uppercase';
 
     var datenow = new Date();
     document.getElementById('dates').innerText = 'Today, ' +datenow.toLocaleTimeString();
-    //console.log(JSON.parse(coins));
+    
 }
-setTimeout(getdata, 500);
-// localStorage.clear('coin');
-// localStorage.removeItem('coin ');
-
+setTimeout(getdata, 100);

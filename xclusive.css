@@ -28,7 +28,7 @@ body .container {
 body .container .title {
   margin-top: 1.1rem;
   margin-bottom: 1rem;
-  color: #567FD1;
+  color: #2f9df7;
   font-size: 1.2rem;
 }
 body .container .entry {
@@ -52,6 +52,12 @@ body .container .entry .boxes {
   outline: none;
   background-color: #1B212D;
   color: #fff;
+}
+body .container .entry #status::-moz-placeholder {
+  color: #2f9df7;
+}
+body .container .entry #status::placeholder {
+  color: #2f9df7;
 }
 body .container .entry .btnprocess {
   width: 70%;

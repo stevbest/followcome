@@ -39,7 +39,7 @@ body{
             // margin: 20rem 0;
             margin-top: 1.1rem;
             margin-bottom: 1rem;
-            color: #567FD1;
+            color: #2f9df7;
             font-size: 1.2rem;
             // color:; //linear-gradient(20deg, #0bd10b 7%, rgb(255, 0, 34) 90%);
             // cursor: pointer;
@@ -64,6 +64,14 @@ body{
                 background-color: #1B212D;
                 color: #fff;
                 
+            }
+            // #status{
+            //     text-transform: uppercase;
+            //     font-size: .8rem;
+            // }
+            #status::placeholder{
+                // color: linear-gradient(25deg, #567FD1 40%, rgb(170, 6, 162) 100%);
+                color: #2f9df7;
             }
 
             margin-top: 2rem;
