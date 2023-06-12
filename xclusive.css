@@ -57,6 +57,7 @@ body {
   border: none;
   background: #32BEA6;
   color: #fff;
+  margin-top: 2em;
 }
 
 @media (max-width: 600px) {
