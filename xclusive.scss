@@ -37,6 +37,7 @@ body{
 .btnprocess{
     font-size: 1rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -75,7 +76,7 @@ body{
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        // align-items: center;
         justify-content: center;
     }
 
@@ -99,7 +100,8 @@ body{
 
     .btnprocess{
         width: 40%;
-        
+        // left: 50%;
+        transform: translate(70%);
     }
 }
 @media (min-width:601px){
@@ -113,7 +115,6 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
     }
 
     .title{
