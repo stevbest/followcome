@@ -58,7 +58,7 @@ body {
   color: #fff;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 600px) {
   .container {
     width: 100%;
     min-height: 100vh;
@@ -86,7 +86,7 @@ body {
     width: 40%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 601px) {
   .container {
     width: 100%;
     max-width: 50rem;
