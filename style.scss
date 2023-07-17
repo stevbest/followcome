@@ -16,17 +16,28 @@ body{
     display: none;
     background: url(bitcoin.png);
     height: 100vh;
-    margin-top: 3rem;
+    // margin-top: 3rem;
+    .hero{
 
+        background: #1b212dfa;
+        // backdrop-filter: blur(.2em);
+        height: 100%;
+    }
     .container{
-        background: #1b212df6;
-        backdrop-filter: blur(.2em);
+        border-radius: 1rem;
+        border: .132rem solid rgba(131, 129, 129, 0.2);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        // background: #1b212df6;
+        // backdrop-filter: blur(.2em);
         margin-inline: auto;
         padding: 1em 0;
         border-radius: 1em;
         // border: .1em solid gray;
 
-//#707070;
+        //#707070;
         .header{
             width: 100%;
             display: flex;
@@ -168,7 +179,7 @@ body{
 
     //     // width: 90%;
     //     border-radius: 1rem;
-    //     // border: .132rem solid rgba(131, 129, 129, 0.2);
+    //     border: .132rem solid rgba(131, 129, 129, 0.2);
     //     // background-color: black;
     //     margin: 0 auto;
     //     display: flex;
@@ -353,7 +364,7 @@ body{
     body{
         display: block;
         .container{
-            width: 95%;
+            width: 94%;
         }
     }
     // body .container{
