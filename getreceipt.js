@@ -24,7 +24,12 @@ function getdata(){
     statuss.style.textTransform = 'uppercase';
 
     var datenow = new Date();
-    document.getElementById('dates').innerText = 'Today, ' +datenow.toLocaleTimeString();
+    var datfmt = datenow.toLocaleString('ng-NG',{
+        year:'numeric',
+        month:'long',
+        day:'2-digit'
+    });
+    document.getElementById('dates').innerText = '📅 '+ datfmt + '⌚' +datenow.toLocaleTimeString();
     
 }
 setTimeout(getdata, 100);

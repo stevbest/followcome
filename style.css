@@ -5,113 +5,118 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 1.125rem;
   font-family: "Poppins", sans-serif, "Roboto";
 }
 
 body {
-  background: #1B212D;
+  display: none;
+  background: url(bitcoin.png);
   height: 100vh;
   margin-top: 3rem;
 }
 body .container {
-  padding: 0.2rem 0;
-  width: 90%;
-  border-radius: 1rem;
-  border: 0.132rem solid rgba(131, 129, 129, 0.2);
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-body .container .contain {
-  width: 95%;
-  margin: 0 auto;
-  background-color: #0db69a;
-  background: rgba(37, 46, 63, 0.35);
+  background: rgba(27, 33, 45, 0.9647058824);
+  -webkit-backdrop-filter: blur(0.2em);
+          backdrop-filter: blur(0.2em);
+  margin-inline: auto;
+  padding: 1em 0;
+  border-radius: 1em;
 }
 body .container .header {
-  margin-top: 2rem;
-  height: 10vh;
-  background-color: transparent;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 body .container .header .verifylogo {
-  width: 2rem;
-  margin-bottom: 1rem;
+  width: 1.5rem;
+  margin-bottom: 1em;
 }
 body .container .header #coinreceived {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #0db69a;
+  font-size: 1.5rem;
+  font-size: 700;
+  width: 100%;
+  text-align: center;
+  color: #009988;
 }
 body .container .titl {
-  color: rgb(196, 196, 196);
+  color: rgb(150, 150, 150);
 }
-body .container hr {
-  height: 0.1rem;
-  background-color: #555454;
-  border: none;
+body .container .tval {
+  color: #707070;
 }
 body .container .setone {
-  font-size: 1.14rem;
-  border: none;
-  border-radius: 0.6rem;
-  padding: 1rem 0.5rem;
+  background: rgba(105, 105, 105, 0.1176470588);
+  padding: 1em 0.5em;
+  width: 95%;
+  margin-inline: auto;
+  font-size: 0.9rem;
+  margin-top: 1em;
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 body .container .setone img {
-  width: 1rem;
-}
-body .container .setone .transdatediv {
-  color: #929292;
-}
-body .container .setone .transdatediv .tval {
-  float: right;
+  width: 0.9rem;
 }
 body .container .setone .statusdiv {
-  color: #929292;
+  border-bottom: 0.1rem solid rgb(71, 71, 71);
+  padding-bottom: 1em;
 }
-body .container .setone .statusdiv .tval {
+body .container .setone .transdatediv {
+  padding-top: 1em;
+}
+body .container .setone .cust .tval {
   float: right;
-  color: #0db69a;
 }
 body .container .settwo {
-  font-size: 1.14rem;
-  border: none;
-  border-radius: 0.6rem;
-  padding: 1rem 0.5rem;
+  color: rgb(150, 150, 150);
+  background: rgba(105, 105, 105, 0.1176470588);
+  padding: 1em 0.5em;
+  width: 95%;
+  margin-inline: auto;
+  font-size: 0.9rem;
+  margin-top: 1em;
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 body .container .settwo img {
-  width: 1rem;
+  width: 0.9rem;
 }
-body .container .settwo .tval {
+body .container .settwo .feediv {
+  border-bottom: 0.1rem solid rgb(71, 71, 71);
+  padding-bottom: 1em;
+}
+body .container .settwo .amountdiv {
+  padding: 1em 0;
+  border-bottom: 0.1rem solid rgb(71, 71, 71);
+}
+body .container .settwo .slippagefeediv {
+  border-bottom: 0.1rem solid rgb(71, 71, 71);
+  padding: 1em 0;
+}
+body .container .settwo .usdreceiveddiv {
+  padding-top: 1em;
+}
+body .container .settwo .cust .tval {
   float: right;
-  color: #929292;
 }
 body .container .footer {
+  margin-top: 1.2em;
   text-align: center;
-  border-radius: 1rem;
   display: flex;
-  background: transparent;
   flex-direction: column;
-  padding: 0.5rem 0;
-  gap: 1.5rem;
 }
 body .container .footer .viewby {
   text-decoration: none;
-  color: rgb(12, 115, 199);
+  color: #009988;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
 }
 body .container .footer .viewby:hover {
   color: #0db69a;
@@ -120,8 +125,11 @@ body .container .footer .viewby:active {
   color: #fff;
 }
 body .container .footer .author {
+  margin-top: 2em;
   font-size: 0.8rem;
   color: rgb(105, 105, 105);
+  width: 100%;
+  text-align: center;
   letter-spacing: 0.2rem;
 }
 body .container .footer .author span {
@@ -130,9 +138,11 @@ body .container .footer .author span {
   font-size: 1rem;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 767px) {
+  body {
+    display: block;
+  }
   body .container {
-    width: 28rem;
-    transition: all 0.5s ease;
+    width: 85%;
   }
 }/*# sourceMappingURL=style.css.map */
