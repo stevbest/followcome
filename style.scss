@@ -19,13 +19,13 @@ body{
     // margin-top: 3rem;
     .hero{
 
-        background: #1b212dfa;
+        background: #fffffff6;
         // backdrop-filter: blur(.2em);
         height: 100%;
     }
     .container{
         border-radius: 1rem;
-        border: .132rem solid rgba(131, 129, 129, 0.2);
+        border: .132rem solid #0099873d;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -65,21 +65,22 @@ body{
             color: #707070;
         }
         .setone{
-            background: #6969691e;
+            background: #ebebeb7e;
             padding: 1em .5em;
             width: 95%;
             margin-inline: auto;
             font-size: .9rem;
             margin-top: 1em;
             border-radius: 1em;
-
+//0099873d
+//ebebeb7e
             img{
                 width: .9rem;
             }
             display: flex;
             flex-direction: column;
             .statusdiv{
-                border-bottom: .1rem solid rgb(71, 71, 71);
+                border-bottom: .1rem solid #00998798;
                 padding-bottom: 1em;
                 
             }
@@ -94,7 +95,7 @@ body{
         }
         .settwo{
             color: rgb(150, 150, 150);
-            background: #6969691e;
+            background: #ebebeb7e;
             padding: 1em .5em;
             width: 95%;
             margin-inline: auto;
@@ -107,18 +108,19 @@ body{
                 width: .9rem;
             }
             
-
+//0099873d
+//ebebeb7e
             .feediv{
-                border-bottom: .1rem solid rgb(71, 71, 71);
+                border-bottom: .1rem solid #0099874d;
                 padding-bottom: 1em;
             }
             .amountdiv{
                 // border-bottom: .1rem solid gray;
                 padding: 1em 0;
-                border-bottom: .1rem solid rgb(71, 71, 71);
+                border-bottom: .1rem solid #0099873d;
             }
             .slippagefeediv{
-                border-bottom: .1rem solid rgb(71, 71, 71);
+                border-bottom: .1rem solid #0099873d;
                 padding: 1em 0;
             }
 

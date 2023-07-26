@@ -1,1 +1,154 @@
-*{padding:0;margin:0;box-sizing:border-box}html{font-size:1.125rem;font-family:Poppins,sans-serif,Roboto}body{display:none;background:url(bitcoin.png);height:100vh}body .hero{background:rgba(27,33,45,.9803921569);height:100%}body .container{border-radius:1em;border:.132rem solid rgba(131,129,129,.2);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);margin-inline:auto;padding:1em 0}body .container .header{width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}body .container .setone,body .container .settwo{background:rgba(105,105,105,.1176470588);padding:1em .5em;width:95%;margin-inline:auto;font-size:.9rem;margin-top:1em;border-radius:1em;flex-direction:column;display:flex}body .container .header .verifylogo{width:1.5rem;margin-bottom:1em}body .container .header #coinreceived{font-size:1.5rem;font-size:700;width:100%;text-align:center;color:#098}body .container .titl{color:#969696}body .container .tval{color:#707070}body .container .setone img,body .container .settwo img{width:.9rem}body .container .setone .statusdiv,body .container .settwo .feediv{border-bottom:.1rem solid #474747;padding-bottom:1em}body .container .setone .transdatediv,body .container .settwo .usdreceiveddiv{padding-top:1em}body .container .settwo .amountdiv,body .container .settwo .slippagefeediv{border-bottom:.1rem solid #474747;padding:1em 0}body .container .setone .cust .tval,body .container .settwo .cust .tval{float:right}body .container .settwo{color:#969696}body .container .footer{margin-top:1.2em;text-align:center;display:flex;flex-direction:column}body .container .footer .viewby{text-decoration:none;color:#098;font-family:"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;font-size:1rem;width:100%;text-align:center}body .container .footer .viewby:hover{color:#0db69a}body .container .footer .viewby:active{color:#fff}body .container .footer .author{margin-top:2em;font-size:.8rem;color:#696969;width:100%;text-align:center;letter-spacing:.2rem}body .container .footer .author span{font-weight:700;letter-spacing:normal;font-size:1rem}@media (max-width:767px){body{display:block}body .container{width:94%}}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.125rem;
+  font-family: "Poppins", sans-serif, "Roboto";
+}
+
+body {
+  display: none;
+  background: url(bitcoin.png);
+  height: 100vh;
+}
+body .hero {
+  background: rgba(255, 255, 255, 0.9647058824);
+  height: 100%;
+}
+body .container {
+  border-radius: 1rem;
+  border: 0.132rem solid rgba(0, 153, 135, 0.2392156863);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-inline: auto;
+  padding: 1em 0;
+  border-radius: 1em;
+}
+body .container .header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .container .header .verifylogo {
+  width: 1.5rem;
+  margin-bottom: 1em;
+}
+body .container .header #coinreceived {
+  font-size: 1.5rem;
+  font-size: 700;
+  width: 100%;
+  text-align: center;
+  color: #009988;
+}
+body .container .titl {
+  color: rgb(150, 150, 150);
+}
+body .container .tval {
+  color: #707070;
+}
+body .container .setone {
+  background: rgba(235, 235, 235, 0.4941176471);
+  padding: 1em 0.5em;
+  width: 95%;
+  margin-inline: auto;
+  font-size: 0.9rem;
+  margin-top: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+}
+body .container .setone img {
+  width: 0.9rem;
+}
+body .container .setone .statusdiv {
+  border-bottom: 0.1rem solid rgba(0, 153, 135, 0.5960784314);
+  padding-bottom: 1em;
+}
+body .container .setone .transdatediv {
+  padding-top: 1em;
+}
+body .container .setone .cust .tval {
+  float: right;
+}
+body .container .settwo {
+  color: rgb(150, 150, 150);
+  background: rgba(235, 235, 235, 0.4941176471);
+  padding: 1em 0.5em;
+  width: 95%;
+  margin-inline: auto;
+  font-size: 0.9rem;
+  margin-top: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+}
+body .container .settwo img {
+  width: 0.9rem;
+}
+body .container .settwo .feediv {
+  border-bottom: 0.1rem solid rgba(0, 153, 135, 0.3019607843);
+  padding-bottom: 1em;
+}
+body .container .settwo .amountdiv {
+  padding: 1em 0;
+  border-bottom: 0.1rem solid rgba(0, 153, 135, 0.2392156863);
+}
+body .container .settwo .slippagefeediv {
+  border-bottom: 0.1rem solid rgba(0, 153, 135, 0.2392156863);
+  padding: 1em 0;
+}
+body .container .settwo .usdreceiveddiv {
+  padding-top: 1em;
+}
+body .container .settwo .cust .tval {
+  float: right;
+}
+body .container .footer {
+  margin-top: 1.2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+body .container .footer .viewby {
+  text-decoration: none;
+  color: #009988;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+body .container .footer .viewby:hover {
+  color: #0db69a;
+}
+body .container .footer .viewby:active {
+  color: #fff;
+}
+body .container .footer .author {
+  margin-top: 2em;
+  font-size: 0.8rem;
+  color: rgb(105, 105, 105);
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+body .container .footer .author span {
+  font-weight: bold;
+  letter-spacing: normal;
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  body {
+    display: block;
+  }
+  body .container {
+    width: 94%;
+  }
+}/*# sourceMappingURL=style.css.map */
